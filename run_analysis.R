@@ -38,6 +38,6 @@ X_tidy_avg <- aggregate(X_tidy, FUN=mean, by=list(Activity=y$Activity, Subject=s
 X_tidy_avg <- merge(activity_labels, X_tidy_avg, by.y = "Activity", by.x = 0)
 X_tidy_avg$Row.names <- NULL
 head(X_tidy_avg)
-     
-write.table(X_tidy, "X_tidy.csv")
-write.table(X_tidy_avg, "X_tidy_avg.csv")
+
+write.table(X_tidy, "X_tidy.txt", row.name=FALSE)
+write.table(X_tidy_avg, "X_tidy_avg.txt", row.name=FALSE)

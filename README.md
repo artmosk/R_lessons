@@ -28,7 +28,7 @@ Getting all mean and standard deviation name values -> X_tidy
 Getting average of each variable for each activity and each subject -> X_tidy_avg 
 
 
-Saving tidy data (X_tidy) to X_tidy.csv
+Saving tidy data (X_tidy) to X_tidy.txt
 
-Saving tidy_avg data (X_tidy_avg) to X_tidy_avg.csv
+Saving tidy_avg data (X_tidy_avg) to X_tidy_avg.txt
 
